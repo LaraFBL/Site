@@ -86,11 +86,12 @@ audio,
 video {
     margin: 0;
     padding: 0;
-    border: 0;
+    border: 0;;
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
 }
+
 
 /* HTML5 display-role reset for older browsers */
 article,
@@ -105,10 +106,21 @@ menu,
 nav,
 section {
     display: block;
+    margin: 10px;
+    border-radius: 25px;
 }
 
 body {
     line-height: 1;
+    margin: 10px;
+}
+
+.carrossel__titulo, .card, .botões__ancora, .descrição__imagem{
+    border-radius: 25px;
+}
+
+.tópicos__link{
+    border-radius: 20px;
 }
 
 ol,
